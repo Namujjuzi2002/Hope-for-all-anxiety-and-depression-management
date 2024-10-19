@@ -1,0 +1,324 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+} */
+body{
+    background-color: rgb(199, 241, 199);
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border-radius:10px ;
+     text-align: right;
+    padding: 50px;
+     gap: 10px;
+     background: #85c480;
+     cursor: grab;
+     padding-top: 10px;
+     text-decoration: none;
+     margin: 0px;
+
+}
+nav li h1{
+    float: left;
+    text-decoration: none;
+    padding: 20px;
+}
+nav a{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    color: #d4fad0;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}
+nav img{
+    height: 70px;
+    object-fit: cover;
+    width: 70px;
+    border-radius: 20px;
+    float: left;
+}
+.content{
+    width:100%;
+   
+    background-position: center;
+
+    padding: 0;
+    overflow: hidden;
+    background-image: url(pictures/banner7.jpg);
+    margin-top: 0;
+    color:black;
+    height: 600px;
+    border: #098f2a;
+    border-radius: 10px;
+    opacity: 50px;
+
+}
+.content h1{
+    font-size: 60px;
+    color:rgb(181, 231, 196);
+    animation-delay: 0.5s;
+}
+.content p{
+    margin: 10px 0 30px ;
+    animation-delay: 01s;
+
+
+}
+@keyframes moveup{
+   100%{
+    opacity: 1;
+    transform:translateY(0px)
+   } 
+}
+.phone{
+    display: flex;
+     gap: 10px;
+     font-size: smaller;
+}
+.call{
+    display: flex;
+    gap: 40px;
+    font-size: smaller; 
+    margin-left: 60px; 
+}
+.call p li{
+    padding: 10px;
+    display: inline; 
+    color: #0d881d;
+
+}
+
+.phone p li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8px;
+    padding: 3px;
+    text-decoration: none;
+    display: inline;
+}
+
+.causes h4{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+
+.ank{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin:0 auto 50px ;
+    justify-content: space-between;
+    background-color:rgb(194, 236, 196) ;
+    border-radius: 10px auto;
+}
+
+.inspirations{
+    margin-top: 10px;
+    flex-basis: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:ivory;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50px;
+
+}
+.inspirations img{
+    width: 100%;
+    height: 100vh;
+    border-radius: 50px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #222;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px ;
+
+}
+.footer{
+    list-style: none;
+    color: white;
+}
+.footer img{
+    height: 20px;
+    width: 20px;
+}
+.footer p{
+    color: white;
+}
+
+.details{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin:5px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    height: 20pvh;
+
+}
+.services{
+    width: 20%;
+   padding: 5px;
+   border-bottom: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+   background-color: ivory;
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 50px;
+   height: 420px;
+
+}
+
+.services video{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.mission{
+     width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: ivory;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50px;
+    height: 350px;
+}
+.mission img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.container{
+    font-size: large;
+     width: 100%;
+    flex-wrap: wrap;
+    margin:20px;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(104, 180, 104);
+    margin-top: 20px;
+    padding: 100px;
+    font-family: sans-serif;
+    white-space: 10px;
+}
+.container H4{
+    font-size: x-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-bottom: 10px;
+}
+
+select,option{
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #82e2a2;
+    color:white;
+    margin-bottom: 10px;
+}
+.form-group{
+    width: 40%;
+    margin: 20PX;
+}
+h2{
+    margin-left: 100px;
+}
+input,textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #82e2a2;
+    color: #222;
+    margin-bottom: 10pX;
+}
+button{
+    display: inline;
+    padding: 12px 24px;
+    background-color: #82e2a2;
+    color: #222;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+@media screen and (max-width:768px){
+    contact{
+        padding: 20px;
+    }
+    .contact-wrapper {
+     
+     grid-template-columns: 1fr;
+    
+     }
+}
+@media screen and (max-width:768px){
+
+}
+.mission video{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.vission{
+    padding: 40px;
+ 
+    line-height: 1.5;
+
+}@media(max-width:600px){
+    .inspirations{
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: #098f2a;
+    }
+    .services{
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: #8f6009;  
+    }
+    .container{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 30px;
+        background-color: #8f6009;  
+    }
+    .mission{
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: #8f6009; 
+    }
+    .form-group-h2{
+        width: 100%;
+
+    }
+    .content{
+       width: 100%;
+    }
+ h3{
+    width: 100%; 
+ }
+}
+
+
+
